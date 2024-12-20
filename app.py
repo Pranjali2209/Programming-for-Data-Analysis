@@ -121,7 +121,7 @@ if page == "Data Overview":
         return body
 
     try:
-        notebook_html = notebook_to_html(r"C:\Program Files\JetBrains\PyCharm 2024.3.1\sikas_project\Sikas_project_final.ipynb")
+        notebook_html = notebook_to_html(r"C:\Program Files\JetBrains\PyCharm 2024.3.1\st20314723 CMP7005 PRAC1\Pranjali_project_final.ipynb")
         st.components.v1.html(notebook_html, height=1000, width=900, scrolling=True)
     except Exception as e:
         st.error(f"Error displaying the notebook: {e}")
